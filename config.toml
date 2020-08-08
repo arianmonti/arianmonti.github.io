@@ -1,4 +1,4 @@
 baseURL = "http://blog.arianmonti.tk/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "fa-ir"
+title = "arianmonti blog"
 theme = "ananke"
