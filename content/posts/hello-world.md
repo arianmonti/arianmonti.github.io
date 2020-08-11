@@ -1,8 +1,5 @@
 ---
-title: "سلام دنیا!"
-date: 2020-08-11T13:01:07+04:30
-draft: false
+title: "Hello World"
+date: 2020-08-11T13:13:20+04:30
 ---
-سلام دنیا!
-
-
+Hello, World!
