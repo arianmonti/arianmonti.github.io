@@ -21,4 +21,4 @@ git commit -S -m "$msg"
 git push origin gh-pages
 # For prevent any conflict, simply delete the branch master on remote 
 #git push origin :master
-git push --prefix=public https://www.github.com/fzerorubigd/fzerorubigd.github.io master
+git push origin master
