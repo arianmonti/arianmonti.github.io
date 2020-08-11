@@ -18,5 +18,5 @@ hugo -t loveit
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -S -m "Publishing to gh-pages (publish.sh)"
 
-#echo "Pushing to github"
-#git push --all
+echo "Pushing to github"
+git push --all
