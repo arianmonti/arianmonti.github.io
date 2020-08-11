@@ -1,24 +1,22 @@
-#!/bin/bash
-set -euo pipefail
-IFS=$'\n\t'
+#!/bin/sh
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+echo "Deleting old publication"
+rm -rf public
+mkdir public
+git worktree prune
+rm -rf .git/worktrees/public/
 
-# Build the project. 
+echo "Checking out gh-pages branch into public"
+git worktree add -B gh-pages public upstream/gh-pages
+
+echo "Removing existing files"
+rm -rf public/*
+
+echo "Generating site"
 hugo -t loveit
 
-# Add changes to git.
-git add -A
+echo "Updating gh-pages branch"
+cd public && git add --all && git commit -S -m "Publishing to gh-pages (publish.sh)"
 
-# Commit changes.
-msg="rebuilding site `date`"
-if [ $# -eq 1 ]
-  then msg="$1"
-fi
-git commit -S -m "$msg"
-
-# Push source and build repos.
-git push origin gh-pages
-# For prevent any conflict, simply delete the branch master on remote 
-#git push origin :master
-git push origin master
+#echo "Pushing to github"
+#git push --all
