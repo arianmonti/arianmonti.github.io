@@ -103,7 +103,7 @@ theme = "loveit"
       enable = true 
       [params.page.comment.disqus]
         enable = true
-        shortname = "arianmonti"
+        shortname = "blog-arianmonti-tk"
       [params.page.comment.telegram]
         enable = false
         siteID = ""
