@@ -2,12 +2,133 @@ baseURL = "http://blog.arianmonti.tk/"
 defaultContentLanguage = "fa-ir"
 languageCode = "fa-ir"
 title = "arianmonti blog"
+disqusShortname = "arianmonti"
 
 theme = "loveit"
 
 [params]
-  # LoveIt theme version
   version = "0.2.X"
+  description = "arianmonti blog"
+  keywords = ["Python", "Flask"]
+  defaultTheme = "auto"
+  dateFormat = "2006-01-02"
+
+  [params.social]
+    GitHub = "arianmonti"
+    Linkedin = ""
+    Twitter = "ArianMontazeri"
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
+    Medium = ""
+    Gitlab = "arianmonti1"
+    Youtubelegacy = ""
+    Youtubecustom = ""
+    Youtubechannel = ""
+    Keybase = ""
+    Pinterest = ""
+    Reddit = ""
+    Codepen = ""
+    Stackoverflow = ""
+    Soundcloud = ""
+    Spotify = ""
+    Paypal = ""
+    Goodreads = ""
+    Foursquare = ""
+    Hackernews = ""
+    Kickstarter = ""
+    Patreon = ""
+    Steam = ""
+    Twitch = ""
+    Strava = ""
+    Skype = ""
+    Whatsapp = ""
+    Zhihu = ""
+    Douban = ""
+    Angellist = ""
+    Slidershare = ""
+    Jsfiddle = ""
+    Deviantart = ""
+    Behance = ""
+    Dribbble = ""
+    Wordpress = ""
+    Vine = ""
+    Googlescholar = ""
+    Researchgate = ""
+    Mastodon = ""
+    Thingiverse = ""
+    Devto = ""
+    Gitea = ""
+    XMPP = ""
+    Matrix = ""
+    Bilibili = ""
+    #Email = "xxxx@xxxx.com"
+    RSS = true # LoveIt NEW | 0.2.0
+
+  [params.page]
+    [params.page.code]
+      copy = true
+      maxShownLines = 10
+    [params.page.share]
+      enable =false 
+      Twitter = true
+      Facebook = false
+      Linkedin = false
+      Whatsapp = false
+      Pinterest = false
+      Tumblr = false
+      HackerNews = false
+      Reddit = false
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = false
+      Instapaper = false
+      Pocket = false
+      Digg = false
+      Stumbleupon = false
+      Flipboard = false
+      Weibo = false
+      Renren = false
+      Myspace = false
+      Blogger = false
+      Baidu = false
+      Odnoklassniki = false
+      # Evernote = true
+      Skype = false
+      Trello = false
+      Mix = false
+    # LoveIt CHANGED | 0.2.0 Comment config
+    [params.page.comment]
+      enable = true 
+      [params.page.comment.disqus]
+        enable = true
+        shortname = "arianmonti"
+      [params.page.comment.telegram]
+        enable = false
+        siteID = ""
+        limit = 5
+        height = ""
+        color = ""
+        colorful = true
+        dislikes = false
+        outlined = false
+      [params.page.comment.commento]
+        enable = false
+      [params.page.comment.utterances]
+        enable = false
+        repo = ""
+        issueTerm = "pathname"
+        label = ""
+        lightTheme = "github-light"
+        darkTheme = "github-dark"
+
+  [params.verification]
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
 
 [menu]
   [[menu.main]]
@@ -38,9 +159,3 @@ theme = "loveit"
     title = ""
     weight = 3
 
-# Markup related configuration in Hugo
-[markup]
-  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
-  [markup.highlight]
-    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
-    noClasses = false
