@@ -2,7 +2,7 @@ baseURL = "http://blog.arianmonti.tk/"
 defaultContentLanguage = "fa-ir"
 languageCode = "fa-ir"
 title = "arianmonti blog"
-disqusShortname = "arianmonti"
+disqusShortname = "blog-arianmonti-tk"
 
 theme = "loveit"
 
