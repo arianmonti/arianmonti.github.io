@@ -17,7 +17,7 @@ hugo -t loveit
 
 echo "Updating gh-pages branch"
 git add --all && git commit -S -m "Publishing to gh-pages (publish.sh)"
-cd public echo blog.arianmonti.tk > CNAME && git add --all && git commit -S -m "Publishing to gh-pages (publish.sh)"
+cd public && echo blog.arianmonti.tk > CNAME && git add --all && git commit -S -m "Publishing to gh-pages (publish.sh)"
 
 echo "Pushing to github"
 git push --all
