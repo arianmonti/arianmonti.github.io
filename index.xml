@@ -3,14 +3,14 @@
         <title>arianmonti blog</title>
         <link>http://blog.arianmonti.tk/</link>
         <description>arianmonti blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>fa-ir</language><lastBuildDate>Tue, 11 Aug 2020 13:13:20 &#43;0430</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 11 Aug 2020 13:13:20 &#43;0430</lastBuildDate>
             <atom:link href="http://blog.arianmonti.tk/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>سلام دنیا</title>
-    <link>http://blog.arianmonti.tk/posts/hello-world/</link>
+    <link>http://blog.arianmonti.tk/hello-world/</link>
     <pubDate>Tue, 11 Aug 2020 13:13:20 &#43;0430</pubDate>
-    <author></author>
-    <guid>http://blog.arianmonti.tk/posts/hello-world/</guid>
+    <author>Author</author>
+    <guid>http://blog.arianmonti.tk/hello-world/</guid>
     <description><![CDATA[سلام دنیا! به وبلاگ من خوش اومدید. این وبلاگ با Hugo ساخته شده و با گیت مدیریت می‌شه تا نگهداری اون کم دردسر باشه. شاید بعدا از چیز دیگه‌ای استفاده کنیم. فعلا همین خوبه.شما هم می‌تونید مشارکت کنید. اگر مشکل یا پیشنهادی داشتید می‌تونید یه پول ریکوئست بفرستید.]]></description>
 </item></channel>
 </rss>
