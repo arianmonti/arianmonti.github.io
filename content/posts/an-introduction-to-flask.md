@@ -75,4 +75,23 @@ def index():
 ببینین. در واقع کل
 [این](https://github.com/pallets/flask/blob/a1fb8f143f5deb545a10ac2758cb7a2b2bd68df3/src/flask/app.py)
 فایل کلاس `Flask` رو تعریف میکنه. اگه یه نگاهی به کد این کلاس بندازین می‌بینین که یه سری متغیر   مثل `config_class` و `secret_key` و ‍‍‍‍‍‍‍‍‍‍‍‍‍‍`default_config` و `template_folder` و `root_path` رو تعریف می‌کنه که بعدا قابل تغییر هستن. بعد از اون هم متد های کلاس رو تعریف می‌کنه که می‌تونین روی `app` در مثال بالا تست کنید. چند نمونه مهم از این متد‌ها `name` و `logger` و `make_config` و ‍‍`make_shell_context` و `debug` و ‍`test_client` و `register_blueprint` و `add_url_rule` و `run` هستن.
-حالا چرا `Flask` رو با `__name__` به کار میبریم؟ برای این اول باید متغیر‌‌های داندر رو توی پایتون معرفی کنیم.
+حالا چرا `Flask` رو با `__name__` به کار میبریم؟ برای این اول باید متغیر‌‌های داندر رو توی پایتون معرفی کنیم. متغیر‌های داندر متغیر‌هایی هستن که پایتون خودش اونها رو تعریف می‌کنه و به شیوه‌های مختلف می‌تونن مورد استفاده قرار بگیرن و در مواقعی بسیار به کار می‌آن. البته این به این معنی نیست که ما نمی‌تونیم این متغیر‌ها رو تعریف کنیم. یک مثال خیلی مرسوم اینه که متغیر‌های `__author__` و `__license__` هستن. اما بذارید قبل از اون  همه متغیر‌های یک برنامه پایتون رو چک کنیم تا بتونیم متغیر‌های داندر هم توشون ببینیم.
+بذارید اول این کار رو توی شل پایتون انجام بدیم.
+``` Python
+>>> dir() # see all variables in an app
+['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__']
+>>> test_variable = 'test_variable'
+>>> dir() # see all variables in an app
+['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'my_variable']
+
+```
+و حالا بریم سراغ فایل
+``` Python
+#app.py
+print(dir())
+```
+``` Shell
+python app.py
+['__annotations__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__']
+```
+می‌بینیم که متغیر‌های `__cached__` و `__file__` به متغیر‌های برنامه اضافه شدن.
