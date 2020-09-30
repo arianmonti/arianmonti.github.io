@@ -2,8 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://blog.arianmonti.tk/</loc><lastmod>2020-08-31T12:36:36&#43;04:30</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>http://blog.arianmonti.tk/posts/</loc><lastmod>2020-08-31T12:36:36&#43;04:30</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>http://blog.arianmonti.tk/hello-world/</loc><lastmod>2020-08-31T12:36:36&#43;04:30</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://blog.arianmonti.tk/</loc><lastmod>2020-08-31T12:36:36&#43;04:30</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>http://blog.arianmonti.tk/posts/</loc><lastmod>2020-08-31T12:36:36&#43;04:30</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>http://blog.arianmonti.tk/hello-world/</loc><lastmod>2020-08-31T12:36:36&#43;04:30</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>http://blog.arianmonti.tk/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://blog.arianmonti.tk/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
