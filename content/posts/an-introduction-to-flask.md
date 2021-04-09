@@ -1,6 +1,7 @@
 ---
 title: "مقدمه‌ای بر فلسک"
 date: 2020-09-04T11:14:14+04:30
+draft: true
 author: "arianmonti"
 authorLink: ""
 description: "معرفی میکروفریمورک فلسک"
