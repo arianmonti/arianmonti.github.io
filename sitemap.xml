@@ -4,35 +4,14 @@
   
   <url>
     <loc>http://blog.arianmonti.tk/</loc>
-    <lastmod>2020-09-30T21:33:27+03:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.arianmonti.tk/tags/flask/</loc>
-    <lastmod>2020-09-30T21:33:27+03:30</lastmod>
+    <lastmod>2020-08-31T12:36:36+04:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://blog.arianmonti.tk/posts/</loc>
-    <lastmod>2020-09-30T21:33:27+03:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.arianmonti.tk/tags/</loc>
-    <lastmod>2020-09-30T21:33:27+03:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.arianmonti.tk/an-introduction-to-flask/</loc>
-    <lastmod>2020-09-30T21:33:27+03:30</lastmod>
+    <lastmod>2020-08-31T12:36:36+04:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -46,6 +25,12 @@
   
   <url>
     <loc>http://blog.arianmonti.tk/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.arianmonti.tk/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -7,16 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 04 Sep 2020 11:14:14 +0430</lastBuildDate><atom:link href="http://blog.arianmonti.tk/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>مقدمه‌ای بر فلسک</title>
-      <link>http://blog.arianmonti.tk/an-introduction-to-flask/</link>
-      <pubDate>Fri, 04 Sep 2020 11:14:14 +0430</pubDate>
-      
-      <guid>http://blog.arianmonti.tk/an-introduction-to-flask/</guid>
-      <description>پایتون یه زبان برنامه‌نویسی آزاده که به خاظر کتابخونه هاش و طبعا فعال بودن توی حوزه های بسیار مختلف مشهوره. یکی از حوزه‌‌ها‌یی که پایتون توش خیلی مشهوره وب دولپمنته. راستش pure پایتون کد زدن برای توسعه‌دهندگی(!) وب اونقدر ها هم جذاب نیست. در واقع با کتابخونه‌ی WSGI میشه برنامه های وب پایتون نوشت. شاید در حد Hello, World! جالب باشه ولی اگه بخواین واقعا یه برنامه بزرگ بنویسید دیگه اونقدر فان نیست.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 11 Aug 2020 13:13:20 +0430</lastBuildDate><atom:link href="http://blog.arianmonti.tk/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>سلام دنیا</title>
       <link>http://blog.arianmonti.tk/hello-world/</link>
